@@ -1,0 +1,12 @@
+td,
+th {
+  border: 2px solid black;
+  height: 40px;
+  width: 40px;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  background-color: aqua;
+}

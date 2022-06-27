@@ -1,0 +1,19 @@
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 14px 16px;
+}
+
+.b {
+  background-color: blueviolet;
+}
+
+ul {
+  background-color: black;
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}

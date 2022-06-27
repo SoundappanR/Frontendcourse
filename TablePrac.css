@@ -1,0 +1,20 @@
+td,
+th {
+  border: 2px solid black;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-left: 50px;
+}
+
+tr:nth-child(n) {
+  background-color: aquamarine;
+}
+
+tr:nth-child(2n) {
+  background-color: bisque;
+}

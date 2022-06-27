@@ -1,0 +1,7 @@
+.ver {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 20%;
+  top: 10;
+}
