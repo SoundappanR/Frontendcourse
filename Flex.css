@@ -1,0 +1,25 @@
+.boxes {
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 22rem;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 290px;
+  height: 250px;
+}
+
+body {
+  background-color: black;
+}

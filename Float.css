@@ -1,0 +1,39 @@
+img {
+  height: 150px;
+  width: 150px;
+  margin: 0 10px;
+}
+.float {
+  float: left;
+}
+
+.float1 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.box {
+  background-color: aqua;
+  height: 30px;
+  width: 600px;
+}
+
+.box1 {
+  background-color: aqua;
+  height: 30px;
+  width: 600px;
+  margin-left: 920px;
+}
+
+/* .right {
+  text-align: center;
+} */

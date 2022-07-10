@@ -1,0 +1,34 @@
+.box {
+  width: 98%;
+  height: 20%;
+  background-color: black;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.box1 {
+  margin-top: 10px;
+  width: 30%;
+  height: 500px;
+  margin-left: 100px;
+  border: 2px solid rgb(34, 33, 33);
+  /* box-sizing: border-box; */
+}
+
+.child1 {
+  height: 50%;
+  background-color: rgb(34, 33, 33);
+  /* box-sizing: border-box; */
+  border: 0px;
+}
+
+.b {
+  display: block;
+  text-align: center;
+  padding: 13px;
+}
