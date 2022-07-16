@@ -1,0 +1,44 @@
+.Parent {
+  margin: 2% 2% 2% 10%;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 30%;
+}
+
+.size1 {
+  height: 35%;
+  width: 98%;
+  padding: 10px 5px;
+}
+
+.size3 {
+  height: 45%;
+  width: 98%;
+  padding: 10px 5px;
+}
+
+.mid {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.size2 {
+  height: 20%;
+  width: 98%;
+  padding: 10px 5px;
+}
+
+.size4 {
+  height: 20%;
+  width: 98%;
+  padding: 10px 5px;
+}
+
+.right {
+  width: 30%;
+  margin-left: 20px;
+}

@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(21, 21, 22);
+}
+
+.Parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-template-rows: 50% 130% 850%;
+  grid-gap: 8px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  color: white;
+}
+
+.divcolor {
+  background-color: rgb(110, 105, 105);
+  border-radius: 10%;
+  display: flex;
+}
+
+.divcolor1 {
+  background-color: rgb(80, 83, 96);
+  grid-column-start: 1;
+  grid-column-end: 11;
+  /* height: 3000%; */
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.divcolor2 {
+  background-color: rgb(80, 83, 96);
+
+  grid-column-start: 11;
+  grid-column-end: 13;
+  /* height: 3000%; */
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divcolor3 {
+  background-color: rgb(218, 52, 52);
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divcolor4 {
+  background-color: rgb(56, 53, 53);
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  /* border: 1px solid #000; */
+  background-color: rgb(139, 236, 194);
+  border-radius: 100%;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  /* display: inline-block; */
+}

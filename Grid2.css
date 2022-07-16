@@ -1,0 +1,54 @@
+.Parent {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-gap: 20px;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 70px;
+  grid-gap: 15px;
+}
+
+.C2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px;
+  grid-gap: 15px;
+}
+
+.C3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px;
+  grid-gap: 15px;
+  /* border-radius: 100%; */
+}
+
+div {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  box-shadow: 5px 5px 10px black;
+  border: 2px solid rgb(64, 63, 63);
+}
+
+.d1 {
+  /* background-color: aquamarine; */
+  background: linear-gradient(rgb(246, 103, 127), white);
+}
+
+.d2 {
+  /* background-color: darkorange; */
+  background: radial-gradient(rgb(200, 238, 12), rgb(67, 238, 5));
+}
+
+.d3 {
+  /* background-color: rgb(120, 120, 247); */
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}

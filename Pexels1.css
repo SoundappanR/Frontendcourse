@@ -1,0 +1,52 @@
+.Parent {
+  margin: 20px 20px 20px 120px;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.left {
+  width: 400px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.size1 {
+  height: 600px;
+  width: 400px;
+  padding: 10px;
+}
+
+.size3 {
+  height: 700px;
+  width: 400px;
+  padding: 10px;
+}
+
+.mid {
+  width: 400px;
+  margin-left: 20px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.size2 {
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+}
+
+.size4 {
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+}
+
+.right {
+  width: 400px;
+  margin-left: 20px;
+  /* display: flex;
+  flex-direction: column; */
+}
