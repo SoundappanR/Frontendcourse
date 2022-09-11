@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(204, 197, 197);
+}
+
+.Parent {
+  /* display: flex;
+  justify-content: center; */
+  /* align-content: center; */
+}
+
+div {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+input:focus {
+  outline: 0;
+  border-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0 0 5px yellow;
+}
+
+.width {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(112, 112, 233);
+  width: 260px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+}

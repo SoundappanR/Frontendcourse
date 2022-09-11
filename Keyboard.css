@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+}
+
+.Parent {
+  display: flex;
+  border: 1px solid black;
+  width: 79%;
+  background-color: gray;
+  margin: 100px 100px 100px 150px;
+}
+
+section {
+  margin: 5px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerA {
+  display: grid;
+  grid-template-columns: 78px repeat(13, 50px);
+  grid-template-rows: 50px;
+  grid-gap: 5px;
+}
+
+.containerB {
+  display: grid;
+  grid-template-columns: repeat(13, 50px) 78px;
+  grid-template-rows: 50px;
+  grid-gap: 5px;
+}
+
+.containerC {
+  display: grid;
+  grid-template-columns: 91px repeat(11, 50px) 91px;
+  grid-template-rows: 50px;
+  grid-gap: 5px;
+}
+
+.containerD {
+  display: grid;
+  grid-template-columns: 119px repeat(10, 50px) 119px;
+  grid-template-rows: 50px;
+  grid-gap: 5px;
+}
+
+.containerE {
+  display: grid;
+  grid-template-columns: 80px 60px 80px 323px 80px 60px 80px;
+  grid-template-rows: 50px;
+  grid-gap: 5px;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: repeat(6, 50px);
+  grid-gap: 5px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: repeat(6, 50px);
+  grid-gap: 5px;
+}
+
+.divcolor {
+  /* background-color: rgb(230, 232, 233); */
+  background: linear-gradient(to bottom right, rgb(200, 197, 197), white);
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.div1 {
+  width: 80px;
+}
+
+.div2 {
+  grid-column-start: 14;
+  grid-column-end: 16;
+}
+
+.div20 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+.div21 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

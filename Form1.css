@@ -1,0 +1,72 @@
+div {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+.parent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* width: 800px; */
+  width: 60%;
+  /* height: 400px; */
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 88, 88),
+    rgb(157, 146, 146),
+    rgb(74, 134, 246)
+  );
+  /* border: 1px solid black; */
+  margin: 10% 25% 25% 20%;
+  /* margin-top: 150px; */
+}
+
+.gray {
+  color: gray;
+}
+
+a {
+  color: gray;
+}
+
+.child {
+  width: 50%;
+  margin-top: 5%;
+  /* height: 0px; */
+  background-color: black;
+}
+
+input {
+  border-color: rgb(40, 144, 229);
+  border-radius: 25px;
+
+  height: 30px;
+  width: 70%;
+  color: gray;
+  background-color: black;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-color: rgb(123, 236, 31);
+  width: 90px;
+  height: 40px;
+  /* width: 30%;
+  height: 30px; */
+  border-radius: 25px;
+}
+
+i {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+body {
+  /* background-color: aliceblue; */
+  /* background-image: linear-gradient(red, rgb(0, 89, 255)); */
+  background: linear-gradient(60deg, red, blue);
+}
